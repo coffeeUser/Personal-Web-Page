@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/UserScripts/PageAbout")
+    <script src="~/UserScripts/PageAbout.js"></script>
+</head>
+<body>
+    <header>
+        <div id="headerMain" class="flaxDiv">
+            <div id="headerLeft">
+            </div>
+            <div id="headerCenter">
+                <nav id="mainMenu">
+                    <ul id="menu">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Software skills", "Education", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="headerRight">
+                <p>
+                    <!--REGISTRATION!!!-->
+                </p>
+            </div>
+        </div>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+        <div id="footerText">
+            <p>Alexander Zhigalov personal page.</p><p>2018</p>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
