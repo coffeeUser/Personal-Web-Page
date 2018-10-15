@@ -1,16 +1,19 @@
-﻿body {
+﻿body 
+{
     font-size: 0.85em;
     font-family: 'Times New Roman', Times, serif, Verdana, Helvetica, "Segoe UI", Sans-Serif;
     color: #e1e1e1;
     background-color: #222222;
 }
 
-header {
+header 
+{
     color: #ffb300;
     background-color: #000000;
 }
 
-header, footer, nav, section {
+header, footer, nav, section 
+{
     display: block;
 }
 
@@ -19,10 +22,12 @@ header, footer, nav, section {
 }*/
 
 /* Styles for menu links in Header*/
-#mainMenu {
+#mainMenu 
+{
 
 }
-ul#menu {
+ul#menu 
+{
     font-size: 2em;
     font-weight: 500;
     margin: 0 0 5px;
@@ -36,35 +41,40 @@ ul#menu li {
     padding-left: 15px;
 }
 
-ul#menu li a {
+ul#menu li a 
+{
     background: none;
     color: #ffb300;
     text-decoration: none;
 }
 
-ul#menu li a:hover {
+ul#menu li a:hover 
+{
     color: #e1e1e1;
     text-decoration: none;
 }
 
 /*Styles for Header divs*/
-.flaxDiv {
+.flaxDiv 
+{
     display: -moz-box;
     display: -webkit-box;
     display: inline-block;
 
     width: 100%;
 
-    -moz-box-align:center;
+    -moz-box-align: center;
     -webkit-box-align: center;
 
-    -moz-box-orient:horizontal;
-    -webkit-box-orient:horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-box-orient: horizontal;
 }
-#headerMain > div {
+#headerMain > div 
+{
     height: 220px;
 }
-#headerLeft {
+#headerLeft 
+{
     width: 15%;
     -moz-box-flex: 1.0;
     -webkit-box-flex: 1.0;
@@ -77,12 +87,14 @@ ul#menu li a:hover {
     background-position-y:top;
     background-position:unset;
 }
-#headerCenter {
+#headerCenter 
+{
     -moz-box-flex: 3.0;
     -webkit-box-flex: 3.0;
     align-content:center;
 }
-#headerRight {
+#headerRight 
+{
     width: 15%;
     -moz-box-flex: 1.0;
     -webkit-box-flex: 1.0;
@@ -90,14 +102,16 @@ ul#menu li a:hover {
 }
 
 /*Styles for Footer*/
-#footerText {
+#footerText 
+{
     border-top: 1px solid;
     border-top-color: #ffb300;
     text-align: center;
 }
 
 /* Styles for About page menu*/
-ul#aMenu {
+ul#aMenu 
+{
     font-size: 1.5em;
     font-weight: 500;
     margin: 5px 5px 5px;
@@ -105,13 +119,15 @@ ul#aMenu {
     text-align: center;
 }
 
-ul#aMenu li {
+ul#aMenu li 
+{
     display: inline;
     list-style: none;
     padding-left: 15px;
 }
 
-ul#aMenu li:hover {
+ul#aMenu li:hover 
+{
     color: #ffb300;
     text-shadow: 2px 2px 15px #000000, -2px -2px 15px #000000;
     text-decoration: none;
@@ -119,12 +135,14 @@ ul#aMenu li:hover {
 }
 
 /*Styles for divs whith pages content*/
-.asideDiv {
+.asideDiv 
+{
     width:15%;
     height:350px;
 }
 
-.centerDiv {
+.centerDiv 
+{
     width:70%;
     height:auto;
     text-align:center;
@@ -132,19 +150,22 @@ ul#aMenu li:hover {
 
 /*Styles for Home page content*/
 
-p a {
+p a 
+{
     color: #e1e1e1;
     text-decoration: none;
 }
 
-p a:hover {
+p a:hover 
+{
     color: #ffb300;
     text-shadow: 2px 2px 15px #000000, -2px -2px 15px #000000;
 }
 
 /*Styles for images*/
 
-img {
+img 
+{
     height: 150px;
     width: 280px;
     border: 1px thick black;
@@ -154,48 +175,57 @@ img {
     filter: brightness(0.5); 
 }
 
-img:hover {
+img:hover 
+{
     opacity: 1;
     filter: brightness(1);
 }
 
-#logo {
+#logo 
+{
     height: 150px;
     width: 150px;
 }
 
-.logo {
+.logo 
+{
     filter: grayscale(100%);
 }
-.logo:hover {
+.logo:hover 
+{
     filter: grayscale(50%);
 }
 
-.imgProects {
+.imgProects 
+{
     height: 210px;
     width: 392px;
 }
 
 /*Styles for Career page content*/
 
-ul#proects {
+ul#proects 
+{
     list-style:none;
 }
 
-ul#proects::after {
+ul#proects::after 
+{
     content: "";
     display: table;
     clear:both;
 }
 
-#proects li {
+#proects li 
+{
     width: 48%;
     float: left;
     position: relative;
     margin: 0;  
 }
 
-span {
+span 
+{
     font-size: 1.3em;
     font-family: 'Times New Roman', Times, serif, Verdana, Helvetica, "Segoe UI", Sans-Serif;
     color: #ffb300;
@@ -208,62 +238,74 @@ span {
     opacity: 0;
 }
 
-ul#proects li:hover span {
+ul#proects li:hover span 
+{
     bottom: 10px;
     opacity: 1;
 }
 
-h2 {
+h2 
+{
     color: #ffb300;
     text-shadow: 2px 2px 2px #000000;
     border-top: 1px solid #ffb300;
 }
 /* Styles for basic forms
 -----------------------------------------------------------*/
-fieldset {
+fieldset 
+{
     border: 1px solid #ddd;
     padding: 0 1.4em 1.4em 1.4em;
     margin: 0 0 1.5em 0;
 }
 
-legend {
+legend 
+{
     font-size: 1.2em;
     font-weight: bold;
 }
 
-textarea {
+textarea 
+{
     min-height: 75px;
 }
 
-.editor-label {
+.editor-label 
+{
     margin: 1em 0 0 0;
 }
 
-.editor-field {
+.editor-field 
+{
     margin: 0.5em 0 0 0;
 }
 
 
 /* Styles for validation helpers
 -----------------------------------------------------------*/
-.field-validation-error {
+.field-validation-error 
+{
     color: #f00;
 }
 
-.field-validation-valid {
+.field-validation-valid 
+{
     display: none;
 }
 
-.input-validation-error {
+.input-validation-error 
+{
     border: 1px solid #f00;
     background-color: #fee;
 }
 
-.validation-summary-errors {
+.validation-summary-errors 
+{
     font-weight: bold;
     color: #f00;
 }
 
-.validation-summary-valid {
+.validation-summary-valid 
+{
     display: none;
 }
